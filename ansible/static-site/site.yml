@@ -26,5 +26,5 @@
           become: yes
 
         - name: Run image
-          shell: docker run --name hello -dit -p 80:80 -p 443:443 belyklarry/nginx-static
+          shell: docker run --name hello -dit -p 80:80 -p 443:443 belyklarry/static-site
           become: yes
